@@ -1,6 +1,7 @@
 # Python-generated files
 __pycache__/
-*.py[oc]
+*.py[cod]
+*$py.class
 build/
 dist/
 wheels/
@@ -9,6 +10,11 @@ wheels/
 # Virtual environments
 .venv
 
-.vscode
+# Editor / OS local files
+.vscode/
+.DS_Store
+.ipynb_checkpoints/
 
-calculation
+# Local calculation files
+calculation/
+scripts/
