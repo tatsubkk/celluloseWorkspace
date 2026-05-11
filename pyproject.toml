@@ -1,0 +1,23 @@
+[project]
+name = "cnfkit"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "tatsubkk", email = "tatsubkk529@icloud.com" }
+]
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "ipykernel>=7.2.0",
+    "matplotlib==3.10.8",
+    "numpy==2.2.6",
+    "pandas==2.2.3",
+    "pyyaml==6.0.3",
+    "scipy==1.15.3",
+    "torch==2.5.1",
+    "tqdm>=4.67.3",
+]
+
+[build-system]
+requires = ["uv_build>=0.9.22,<0.10.0"]
+build-backend = "uv_build"

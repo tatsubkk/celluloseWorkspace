@@ -1,0 +1,13 @@
+This version is intended to reproduce the original MATLAB code.
+
+
+- The pole of the mesh is on the y-axis.
+  The projected psi is obtained by interpolating the mesh onto a new mesh whose pole is on the z-axis.
+
+- Phi ranges from 0 to pi, and Theta ranges from 0 to pi.
+
+- Note that the following two issues from the original code are not implemented in this version:
+  The minimum value of psi is taken as the minimum on x = 1.5, rather than the global minimum.
+  Multiple psi fields are merged by adding the normalized projected psi values.
+
+- psi_equilibrium.py still has some issues.
